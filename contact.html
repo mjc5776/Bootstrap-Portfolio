@@ -32,14 +32,32 @@
     </div>
   </nav>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="main">
+    <div id="main">
+      <div class="row">
+        <div class="col-md-12">
           <div id="about">
             Contact
           </div>
           <hr>
-
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="form-group">
+              <label class="labels" for="nameTextbox">Name</label>
+              <input type="text" class="form-control" id="nameTextbox" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label class="labels" for="emailTextbox">Email</label>
+              <input type="email" class="form-control" id="emailTextbox" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label class="labels" for="messageTextbox">Message</label>
+              <textarea class="form-control" id="messageTextbox" rows="3"></textarea required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>

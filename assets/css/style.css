@@ -5,7 +5,7 @@ body{
     
 }
 
-/* Top navigation bar */
+/* Top navigation bar for non bootstrap 
 .navbarTop {
     overflow:hidden;
     background-color:#ffffff;
@@ -13,8 +13,9 @@ body{
     
     
 }
+*/
 
-/*Navbar Links */
+/*Navbar Links non boostrap
 .navbarTop a{
 
 color: #cccccc;
@@ -26,13 +27,21 @@ font-weight: bold;
 text-decoration: none;
 position:relative;
 }
+*/
+
+/* non bootstrap site
  .navbarLinks {
      float:right;   
      margin: 25px 100px 0 0 ;
  }
-
+*/
+ .nav-item{
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold; 
+ }
  a:hover {
-     color:#777777;
+     color:#4aaaa5;
  }
 
 
@@ -48,6 +57,15 @@ position:relative;
     position: relative;
     float: left;
     
+}
+
+.navbar-brand{
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-size: 22px;
+background-color: #4aaaa5;
+color:#ffffff;
+font-weight: bold;
+padding: 15px;
 }
 
 #about {
@@ -69,7 +87,8 @@ hr {
     border-color: #dddddd;
     color: #777777;
     margin:40px 70px 70px 70px;
-    height: 400px;
+    padding: 0 30px 10px 10px;
+    
     
   }
 
@@ -141,16 +160,25 @@ hr {
 }
 
 .textBox {
-    float: left;
-    position: relative;
+    
     margin:3px 0 15px 20px;
-    width: 910px;
+    
     border-color: #dddddd;
-    height:25px;
+    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777; 
     border-style: solid;
     border-radius: 5px;
+}
+
+.form-control{
+    
+    margin: 0 10px 0 10px;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777; 
+    border-style: solid;
+    border-radius: 5px;  
 }
 
 .labels{
@@ -161,6 +189,7 @@ hr {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     color: #777777;
 }
+
 
 .MsgBox{
     float: left;
@@ -175,6 +204,7 @@ hr {
     border-radius: 5px;
 }
 
+/* For non Bootstrap site
 button{
     float: left;
     position: relative;
@@ -188,12 +218,35 @@ button{
     font-size: 15px;
     border-radius: 4px;
     width: 130px;
-    height:45px;
+    height:45px; 
 }
+*/
 
+/* For non Bootstrap site
 button:hover{
     background-color: #dddddd;
     color:#4aaaa5;
     border-color: #dddddd;
     
 }
+*/
+
+.btn{
+    margin:15px 0 0 20px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding:9px;
+    width:100px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    border-color: #4aaaa5;
+}
+
+.btn:hover{
+    background-color: #dddddd;
+    color:#4aaaa5;
+    border-color: #dddddd;
+}
+
