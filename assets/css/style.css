@@ -152,33 +152,6 @@ hr {
     border-radius: 5px;
 }
 
-/* For non Bootstrap site
-button{
-    float: left;
-    position: relative;
-    margin:15px 0 0 20px;
-    background-color: #4aaaa5;
-    color:#ffffff;
-    padding:9px;
-    width:100px;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    border-radius: 4px;
-    width: 130px;
-    height:45px; 
-}
-*/
-
-/* For non Bootstrap site
-button:hover{
-    background-color: #dddddd;
-    color:#4aaaa5;
-    border-color: #dddddd;
-    
-}
-*/
-
 .btn{
     margin:15px 0 0 20px;
     background-color: #4aaaa5;
@@ -210,9 +183,9 @@ button:hover{
 
 .imgLabel{
     position: absolute;
-    top: 80%;
+    top: 70%;
     background-color:#4aaaa5;
-    width: 92%;
+    width: 89%;
     text-align: center;
     color:white;
     
